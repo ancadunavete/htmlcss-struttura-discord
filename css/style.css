@@ -1,6 +1,8 @@
 :root{
     --color: aqua;
     --color2: yellow;
+    --color3: rgb(85, 0, 255);
+    --color4: rgb(124, 124, 121);
 }
 
 html{
@@ -9,11 +11,16 @@ html{
 
 header{
     height: 300px;
+    padding-block: 15px;
     background-color: var(--color);
 }
 
 .flex{
     display: flex;
+}
+
+header > .flex{
+   justify-content: space-around; 
 }
 
 .logo,
@@ -22,5 +29,34 @@ header{
     height: 50px;
     width: 50px;
     background-color: var(--color2);
-
 }
+
+.header-text-container{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 20px;
+    background-color: var(--color3)
+}
+
+.header-text-container h1{
+    height: 50px;
+    width: 50px;
+    background-color: var(--color2);
+}
+
+.header-text-container button{
+    align: center
+}
+
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section .bg-gray{
+    background-color: var(--color4);
+}
+
+
