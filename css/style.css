@@ -1,3 +1,26 @@
-html {
-    
+:root{
+    --color: aqua;
+    --color2: yellow;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+header{
+    height: 300px;
+    background-color: var(--color);
+}
+
+.flex{
+    display: flex;
+}
+
+.logo,
+.menu,
+.btn-accedi{
+    height: 50px;
+    width: 50px;
+    background-color: var(--color2);
+
 }
