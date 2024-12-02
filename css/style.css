@@ -46,17 +46,16 @@ header > .flex{
     background-color: var(--color2);
 }
 
-.header-text-container button{
-    align: center
-}
-
-.container-80{
+.container-80 {
     width: 80%;
     margin: 0 auto;
 }
 
-section .bg-gray{
-    background-color: var(--color4);
+main section {
+    height: 80px;
 }
 
+main section.bg-gray {
+    background-color: var(--color4)
+}
 
