@@ -3,6 +3,7 @@
     --color2: yellow;
     --color3: rgb(85, 0, 255);
     --color4: rgb(124, 124, 121);
+    --color5: rgb(157, 40, 61);
 }
 
 html{
@@ -53,9 +54,34 @@ header > .flex{
 
 main section {
     height: 80px;
+    padding-block: 20px;
 }
 
 main section.bg-gray {
-    background-color: var(--color4)
+    background-color: var(--color4);
+    padding-block: 20px;
 }
 
+.flex-basis-60{
+    flex-basis: 60%;
+    height: 60px;
+}
+
+.flex-basis-40{
+    flex-basis: 40%;
+    height: 60px;
+}
+
+footer .flex div{
+    flex-basis: calc(100% / 5);
+    height: 50px;
+    background-color: var(--color5)
+}
+
+footer .flex div:first-child{
+    flex-basis: 25%;
+}
+
+footer{
+   background-color: cornflowerblue; 
+}
